@@ -16,7 +16,7 @@
 # print(numbers)
 
 # List Methods
-
+"""
 num = [1,2,3]
 
 num.append(5)
@@ -45,3 +45,20 @@ print(value)
 value = num.pop(2)
 print(value)
 print(num)
+
+"""
+# num = [1,2,3,4,5]
+# for number in num:
+#     print(number)
+#     print(num[0])
+    
+matrix = [
+    [1,2,3],
+    [4,5,6]
+]
+
+print(matrix)
+
+matrix[0][0] = 100
+matrix[1][0] = 200
+print(matrix)

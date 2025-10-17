@@ -15,6 +15,7 @@
 # numbers[1] = "a"
 # print(numbers)
 
+# List Methods
 
 num = [1,2,3]
 
@@ -38,3 +39,9 @@ print(num)
 # num.reverse()
 print(num)
 
+value = num.pop()
+print(value)
+
+value = num.pop(2)
+print(value)
+print(num)
